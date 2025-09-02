@@ -38,7 +38,9 @@ export default function Navbar() {
             key={section.id}
             href={`#${section.id}`}
             className={`transition-colors text-[1.2rem] px-2 py-1 rounded text-white/80 hover:text-white hover:bg-white/10 ${
-              active === section.id ? "text-white font-bold underline underline-offset-4" : ""
+              active === section.id
+                ? "text-white font-bold underline underline-offset-4"
+                : ""
             }`}
           >
             {section.label}
