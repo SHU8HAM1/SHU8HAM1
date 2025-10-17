@@ -32,6 +32,38 @@ const projects = [
       "PostgreSQL",
     ],
   },
+  {
+    title: "Toronto Asian Arts Museum App",
+    image: "/taam.png",
+    description:
+      "An android app for the Toronto Asian Arts Museum to enhance catalogue management.",
+    link: "https://github.com/SHU8HAM1/b07Project",
+    tags: ["Java", "Android", "Firebase", "Multithreading", "NoSQL"]
+  },
+  {
+    title: "Tetris",
+    image: "/tetris.png",
+    description:
+      "A Tetris game written in pure MIPS Assembly. Runs on Saturn MIPS simulator.",
+    link: "https://github.com/SHU8HAM1/assemblyTetris",
+    tags: ["MIPS Assembly", "Game Development", "Computer Architecture"]
+  },
+  {
+    title: "Happy Tummies",
+    image: "/happytummies.jpg",
+    description:
+      "A full-stack AI web app for finding recipes based on dietary restrictions and items in your fridge.",
+    link: "https://github.com/SHU8HAM1/HTV9/tree/feat/navBar.jsx/add-nav-bar",
+    tags: ["React", "Python Django", "Vite", "OpenAI API"]
+  },
+  {
+    title: "Wiseualizer",
+    image: "/wiseualizer.jpg",
+    description:
+      "A real-time visualization tool that generates interactive visualizations from your screen by using AI.",
+    link: "https://github.com/SHU8HAM1/HTVX",
+    tags: ["React", "Python Flask", "Next.js", "Gemini API", "Tailwind"]
+  }
 ];
 
 export default function Projects() {
